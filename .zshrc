@@ -27,7 +27,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-PATH="$HOME/.opt/:$PATH"
 EDITOR="nvim"
 
 alias ls="exa -l"
@@ -35,7 +34,6 @@ alias hg="history | rg"
 alias pn="pnpm"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-export DOCKER_HOST=unix:///run/user/1000/podman/podman.sock
 export HISTCONTROL=ignorespace
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
