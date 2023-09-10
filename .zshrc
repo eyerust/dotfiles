@@ -33,6 +33,7 @@ alias ls="exa -l"
 alias hg="history | rg"
 alias pn="pnpm"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias homework='/var/home/michadaniel/.local/bin/homework.sh'
 
 export HISTCONTROL=ignorespace
 
