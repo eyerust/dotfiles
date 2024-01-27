@@ -29,11 +29,12 @@ source $ZSH/oh-my-zsh.sh
 
 EDITOR="nvim"
 
-alias ls="exa -l"
+alias ls="eza -l"
 alias hg="history | rg"
 alias pn="pnpm"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias homework='/var/home/michadaniel/.local/bin/homework.sh'
+alias hf-download='HF_HUB_ENABLE_HF_TRANSFER=1 /var/home/michadaniel/.local/bin/huggingface-cli download'
 
 export HISTCONTROL=ignorespace
 
