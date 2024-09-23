@@ -36,6 +36,10 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias homework='/var/home/michadaniel/.local/bin/homework.sh'
 alias hf-download='HF_HUB_ENABLE_HF_TRANSFER=1 huggingface-cli download'
 alias send-phone-notification='/var/home/michadaniel/.local/bin/send-notification-to-phone.sh'
+alias whisperx='/opt/whisperX/run.sh'
+alias extract-audio='/opt/extract-audio/run.sh'
+alias convert-manga='~/.bin/convert_manga.sh'
+alias autokey='./.bin/autokey/autokey.sh'
 
 export HISTCONTROL=ignorespace
 
